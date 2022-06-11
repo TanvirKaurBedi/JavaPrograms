@@ -23,6 +23,7 @@ public class anagram {
             System.out.println(array1);
             if (Arrays.equals(array1, array2)) {
                 System.out.println(word1 + " and " + word2 + " are anagram");
+
             } else {
                 System.out.println(word1 + " and " + word2 + " are not anagram");
             }
