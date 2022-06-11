@@ -32,7 +32,7 @@ public class DaysOfWeek {
            break;
            default:
            System.out.println("Plz Enter Number Between 1 to 7");
-           
+           s.close();
 
               
         }

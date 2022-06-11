@@ -16,6 +16,7 @@ public class EvenNumber
       {
         System.out.println(x + " is not a even number");
       }
+      s.close();
     }
     
 }

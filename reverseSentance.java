@@ -8,6 +8,7 @@ public class reverseSentance {
         System.out.println("please Enter a sentence to be reversed");
         Scanner sc = new Scanner(System.in);
         sentance = sc.nextLine();
+        sc.close();
         for (i = sentance.length() - 1; i >= 0; i--) {
             reverseSentance += sentance.charAt(i);
         }

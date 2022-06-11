@@ -12,6 +12,7 @@ public class Addition {
         average = sum/2;
         System.out.println("The Sum of the numbers entered is:" + sum +" " + average);
         System.out.println("The Average of the numbers entered is:" + average);
+        s.close();
 
     }
 

@@ -9,6 +9,7 @@ public class Factorial {
        int product=1;
        Scanner s = new Scanner(System.in);
        num=s.nextInt();
+       s.close();
     for(i=1;i<=num;i++)
     {
         product=product*i; //1*1=1
